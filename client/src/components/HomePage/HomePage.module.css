@@ -1,0 +1,55 @@
+.searchBar {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.searchInput {
+  padding: 20px;
+  width: 80%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  color: #000;
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+
+.flex > h1 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.btn {
+  color: #000000;
+  font-size: 18px;
+  cursor: pointer;
+  background-color:#ffbb64;
+  padding: 10px 20px;
+  border-radius: 16px;
+  margin-left: 20px;
+  border: none;
+  font-weight: 550;
+}
+
+.EmailInput {
+  padding: 20px;
+}
+
+.EmailInput input {
+  margin-bottom: 10px;
+  width: 98%;
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid black;
+}
